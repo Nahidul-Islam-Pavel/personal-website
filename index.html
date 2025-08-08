@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pavel Hossain - Digital Marketing Expert</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./main.js"></script>
+  </head>
+  <body class="text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md p-4 fixed w-full z-50">
+      <div
+        class="container mx-auto flex justify-between items-center flex-wrap"
+      >
+        <a
+          href="#hero"
+          class="text-2xl font-bold text-indigo-600 rounded-lg p-2 hover:bg-indigo-50 transition duration-300"
+          >Pavel Hossain</a
+        >
+        <div class="block lg:hidden">
+          <button
+            id="nav-toggle"
+            class="flex items-center px-3 py-2 border rounded text-indigo-600 border-indigo-600 hover:text-indigo-800 hover:border-indigo-800"
+          >
+            <svg
+              class="fill-current h-3 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v15z" />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden"
+          id="nav-content"
+        >
+          <ul class="text-lg lg:flex-grow lg:flex lg:justify-end">
+            <li>
+              <a
+                href="#about"
+                class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-indigo-600 px-4 py-2 rounded-md transition duration-300"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#services"
+                class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-indigo-600 px-4 py-2 rounded-md transition duration-300"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="#portfolio"
+                class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-indigo-600 px-4 py-2 rounded-md transition duration-300"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a
+                href="#testimonials"
+                class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-indigo-600 px-4 py-2 rounded-md transition duration-300"
+                >Testimonials</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-indigo-600 px-4 py-2 rounded-md transition duration-300"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header
+      id="hero"
+      class="relative bg-gradient-to-r from-indigo-600 to-purple-700 text-white min-h-screen flex items-center justify-center pt-20 pb-10 overflow-hidden"
+    >
+      <div class="container mx-auto px-6 text-center z-10">
+        <div
+          class="relative w-40 h-40 mx-auto mb-8 rounded-full overflow-hidden border-4 border-white shadow-xl"
+        >
+          <!-- Placeholder Image for Pavel Hossain -->
+          <img
+            src="./img/1.jpg"
+            alt="Pavel Hossain"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-4">
+          Pavel Hossain
+        </h1>
+        <p class="text-2xl md:text-3xl mb-8">
+          Your Partner in Digital Marketing Excellence
+        </p>
+        <a href="#contact" class="btn-primary">Get in Touch</a>
+      </div>
+      <!-- Background decorative elements -->
+      <div class="absolute inset-0 z-0">
+        <svg
+          class="w-full h-full opacity-10"
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
+        >
+          <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop
+                offset="0%"
+                style="stop-color: rgb(124, 58, 237); stop-opacity: 1"
+              />
+              <stop
+                offset="100%"
+                style="stop-color: rgb(79, 70, 229); stop-opacity: 1"
+              />
+            </linearGradient>
+          </defs>
+          <circle cx="20" cy="20" r="15" fill="url(#grad1)" />
+          <circle cx="80" cy="80" r="25" fill="url(#grad1)" />
+          <rect
+            x="50"
+            y="10"
+            width="10"
+            height="40"
+            fill="url(#grad1)"
+            transform="rotate(45 55 30)"
+          />
+        </svg>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-6 max-w-4xl">
+        <h2 class="section-heading"><b>About Me</b></h2>
+        <div class="card-effect text-lg leading-relaxed">
+          <p class="mb-4">
+            Hello! I'm Pavel Hossain, a dedicated Digital Marketing Specialist
+            with over 8 years of experience helping businesses thrive online. My
+            passion lies in crafting data-driven strategies that deliver
+            measurable results and enhance brand visibility.
+          </p>
+          <p class="mb-4">
+            I specialize in a wide range of digital marketing disciplines,
+            including Search Engine Optimization (SEO), Search Engine Marketing
+            (SEM), Social Media Marketing, Content Creation, and comprehensive
+            Web Analytics. I believe in a holistic approach, ensuring all
+            aspects of your online presence work together seamlessly.
+          </p>
+          <p>
+            My goal is to empower businesses, big or small, to reach their
+            target audience effectively, drive traffic, generate leads, and
+            ultimately, boost their return on investment. Let's work together to
+            unlock your digital potential!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20">
+      <div class="container mx-auto px-6">
+        <h2 class="section-heading"><b>My Services</b></h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Service 1: SEO -->
+          <div class="card-effect">
+            <h3 class="text-2xl font-semibold text-indigo-700 mb-4">
+              Search Engine Optimization (SEO)
+            </h3>
+            <p class="text-gray-700">
+              Improve your organic search rankings and drive more qualified
+              traffic to your website. From keyword research to technical SEO, I
+              cover it all.
+            </p>
+          </div>
+          <!-- Service 2: SEM -->
+          <div class="card-effect">
+            <h3 class="text-2xl font-semibold text-indigo-700 mb-4">
+              Search Engine Marketing (SEM)
+            </h3>
+            <p class="text-gray-700">
+              Leverage paid advertising campaigns on Google Ads and Bing Ads to
+              get immediate visibility and targeted leads.
+            </p>
+          </div>
+          <!-- Service 3: Social Media Marketing -->
+          <div class="card-effect">
+            <h3 class="text-2xl font-semibold text-indigo-700 mb-4">
+              Social Media Marketing
+            </h3>
+            <p class="text-gray-700">
+              Build strong brand presence, engage with your audience, and drive
+              conversions across platforms like Facebook, Instagram, LinkedIn,
+              and Twitter.
+            </p>
+          </div>
+          <!-- Service 4: Content Marketing -->
+          <div class="card-effect">
+            <h3 class="text-2xl font-semibold text-indigo-700 mb-4">
+              Content Marketing
+            </h3>
+            <p class="text-gray-700">
+              Create compelling and valuable content that attracts, engages, and
+              converts your target audience, establishing you as an industry
+              authority.
+            </p>
+          </div>
+          <!-- Service 5: Email Marketing -->
+          <div class="card-effect">
+            <h3 class="text-2xl font-semibold text-indigo-700 mb-4">
+              Email Marketing
+            </h3>
+            <p class="text-gray-700">
+              Design and execute effective email campaigns for lead nurturing,
+              customer retention, and promotional offers, building lasting
+              customer relationships.
+            </p>
+          </div>
+          <!-- Service 6: Web Analytics & Reporting -->
+          <div class="card-effect">
+            <h3 class="text-2xl font-semibold text-indigo-700 mb-4">
+              Web Analytics & Reporting
+            </h3>
+            <p class="text-gray-700">
+              Gain actionable insights from your website data. I provide
+              detailed reports and recommendations to continually optimize your
+              digital strategies.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <h2 class="section-heading"><b>My Portfolio</b></h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Project 1 -->
+          <div class="card-effect group">
+            <img
+              src="https://placehold.co/400x250/e0e7ff/6a5acd?text=Client+A+Website"
+              alt="Client A Marketing Campaign"
+              class="w-full h-48 object-cover rounded-lg mb-4 transform group-hover:scale-102 transition duration-300"
+            />
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+              E-commerce SEO Growth
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Increased organic traffic by <strong>150%</strong> for an online
+              fashion retailer within 10 months through comprehensive SEO
+              strategies.
+            </p>
+            <a
+              href="#"
+              class="text-indigo-600 hover:text-indigo-800 font-medium"
+              >View Case Study &rarr;</a
+            >
+          </div>
+          <!-- Project 2 -->
+          <div class="card-effect group">
+            <img
+              src="https://placehold.co/400x250/e0e7ff/6a5acd?text=Client+B+Ads"
+              alt="Client B Ad Campaign"
+              class="w-full h-48 object-cover rounded-lg mb-4 transform group-hover:scale-102 transition duration-300"
+            />
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+              SaaS Lead Generation
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Generated over <strong>500+ qualified leads</strong> for a SaaS
+              startup using targeted Google Ads and LinkedIn campaigns.
+            </p>
+            <a
+              href="#"
+              class="text-indigo-600 hover:text-indigo-800 font-medium"
+              >View Case Study &rarr;</a
+            >
+          </div>
+          <!-- Project 3 -->
+          <div class="card-effect group">
+            <img
+              src="https://placehold.co/400x250/e0e7ff/6a5acd?text=Client+C+Social"
+              alt="Client C Social Media"
+              class="w-full h-48 object-cover rounded-lg mb-4 transform group-hover:scale-102 transition duration-300"
+            />
+            <h3 class="text-2xl font-semibold text-gray-800 mb-2">
+              Brand Awareness & Engagement
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Boosted social media engagement by <strong>200%</strong> and
+              increased brand reach for a local service business.
+            </p>
+            <a
+              href="#"
+              class="text-indigo-600 hover:text-indigo-800 font-medium"
+              >View Case Study &rarr;</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20">
+      <div class="container mx-auto px-6 max-w-4xl">
+        <h2 class="section-heading">What Clients Say</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Testimonial 1 -->
+          <div
+            class="card-effect bg-white p-8 rounded-xl shadow-md border-t-4 border-indigo-600"
+          >
+            <p class="text-lg italic text-gray-700 mb-4">
+              "Pavel's expertise in SEO transformed our online presence. Our
+              organic traffic has never been higher, leading to a significant
+              increase in sales. Highly recommend!"
+            </p>
+            <p class="font-semibold text-indigo-700">
+              - Jane Doe, CEO of Fashionista Boutique
+            </p>
+          </div>
+          <!-- Testimonial 2 -->
+          <div
+            class="card-effect bg-white p-8 rounded-xl shadow-md border-t-4 border-purple-600"
+          >
+            <p class="text-lg italic text-gray-700 mb-4">
+              "Working with Pavel on our Google Ads was a game-changer. He
+              delivered excellent ROI and his reporting was always clear and
+              insightful."
+            </p>
+            <p class="font-semibold text-purple-700">
+              - John Smith, Marketing Director at Tech Solutions Inc.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-indigo-600 text-white">
+      <div class="container mx-auto px-6 max-w-2xl">
+        <h2 class="section-heading text-white">Get in Touch</h2>
+        <p class="text-center text-lg mb-8">
+          Ready to elevate your digital presence? Send me a message!
+        </p>
+        <form
+          id="contact-form"
+          action="#"
+          method="POST"
+          class="bg-white p-8 rounded-xl shadow-lg"
+        >
+          <div class="mb-6">
+            <label for="name" class="block text-gray-700 text-sm font-bold mb-2"
+              >Name</label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition duration-300"
+            />
+          </div>
+          <div class="mb-6">
+            <label
+              for="email"
+              class="block text-gray-700 text-sm font-bold mb-2"
+              >Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition duration-300"
+            />
+          </div>
+          <div class="mb-6">
+            <label
+              for="message"
+              class="block text-gray-700 text-sm font-bold mb-2"
+              >Message</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              required
+              class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition duration-300 resize-y"
+            ></textarea>
+          </div>
+          <div class="flex items-center justify-center">
+            <button type="submit" class="btn-primary w-full max-w-md">
+              Send Message
+            </button>
+          </div>
+          <div id="form-response" class="mt-4 text-center text-gray-700"></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+      <div class="container mx-auto px-6 text-center">
+        <p>
+          &copy; <span id="current-year"></span> Pavel Hossain. All rights
+          reserved.
+        </p>
+        <div class="mt-4">
+          <a
+            href="https://linkedin.com/in/pavelhossain"
+            target="_blank"
+            class="text-white hover:text-indigo-400 mx-2 text-2xl transition duration-300"
+          >
+            <!-- LinkedIn Icon (SVG) -->
+            <svg
+              class="inline-block h-6 w-6"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M19 0H5a5 5 0 00-5 5v14a5 5 0 005 5h14a5 5 0 005-5V5a5 5 0 00-5-5zM8 19H5V8h3v11zM6.5 6.7a1.7 1.7 0 110-3.4 1.7 1.7 0 010 3.4zM19 19h-3v-4.7c0-1.2-.6-2.5-2.2-2.5-.9 0-1.5.7-1.7 1.4V19h-3V8h3v1.6s.5-1.5 2.8-1.5c2.2 0 3.8 1.4 3.8 4.7V19z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://twitter.com/pavelhossain"
+            target="_blank"
+            class="text-white hover:text-indigo-400 mx-2 text-2xl transition duration-300"
+          >
+            <!-- Twitter Icon (SVG) -->
+            <svg
+              class="inline-block h-6 w-6"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                d="M8.29 20.251c1.864 0 3.64-.537 5.09-1.517 1.45-.98 2.583-2.31 3.266-3.87.683-1.56.88-3.23.59-4.85-.29-1.62-1.09-3.08-2.29-4.23-.62-.62-1.34-1.12-2.14-1.49-.8-.37-1.68-.57-2.56-.58-1.53.0-3.02.5-4.23 1.49-1.2.99-2.12 2.3-2.65 3.79-.53 1.49-.66 3.09-.36 4.67.29 1.58 1.05 3.02 2.18 4.13.98.98 2.1 1.7 3.3 2.14 1.2.45 2.47.58 3.73.38zM17.5 7.72c.6-.4 1.2-.82 1.8-1.28.18-.12.3-.23.4-.3.12-.08.2-.1.25-.1.1-.02.16-.02.2-.02.04 0 .07 0 .1.02.02.02.04.04.05.07.03.07.05.15.06.25.02.09.02.17.01.26-.02.09-.06.18-.12.26-.06.08-.13.15-.22.2-.1.05-.2.08-.32.08-.12 0-.24-.02-.36-.06-.11-.04-.21-.1-.31-.17-.11-.07-.2-.16-.27-.26-.07-.1-.13-.21-.17-.32-.04-.1-.06-.2-.06-.31zm-2.7 2.7c.3-.2.6-.4.9-.6.09-.06.17-.1.25-.13.08-.03.14-.04.18-.04.04 0 .07 0 .09.01.03.01.05.02.06.04.02.04.03.08.04.13.01.05.01.1.01.16 0 .06-.01.11-.02.16-.02.05-.05.1-.08.14-.04.04-.08.07-.13.09-.05.02-.1.03-.16.03-.06 0-.11-.01-.17-.02-.05-.01-.1-.03-.14-.06-.05-.03-.09-.07-.12-.12-.03-.05-.05-.1-.06-.16z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
